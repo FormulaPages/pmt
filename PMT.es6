@@ -1,5 +1,5 @@
-var isnumber = require('formula-isnumber');
-var error = require('formula-errors');
+import isnumber from 'formula-isnumber';
+import error from 'formula-errors';
 
 export default function PMT(rate, periods, present, future = 0, type = 0) {
 
