@@ -1,0 +1,28 @@
+{
+  "name": "formula-pmt",
+  "version": "1.0.0",
+  "description": "PMT function",
+  "main": "PMT.js",
+  "scripts": {
+    "test": "mocha test",
+    "build": "babel PMT.es6 -m umd --out-file PMT.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormulaPages/pmt.git"
+  },
+  "author": "Peter Moresi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FormulaPages/pmt/issues"
+  },
+  "homepage": "https://github.com/FormulaPages/pmt#readme",
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "should": "^7.1.0"
+  },
+  "dependencies": {
+    "formula-errors": "^1.0.2",
+    "formula-isnumber": "^1.0.0"
+  }
+}
